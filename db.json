@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "name": "Shubam Gupta",
+      "email": "shubham.gupta@gmail.com",
+      "password": "Shubham123",
+      "id": 1
+    },
+    {
+      "name": "Marcia Ellis",
+      "password": "Pa$$w0rd!",
+      "email": "nymorov@mailinator.com",
+      "id": 2
+    },
+    {
+      "name": "Riley Kim",
+      "password": "Pa$$w0rd!",
+      "email": "fokez@mailinator.com",
+      "id": 3
+    },
+    {
+      "name": "Karly Mendez",
+      "password": "Pa$$w0rd!",
+      "email": "saxurapoj@mailinator.com",
+      "id": 4
+    }
+  ]
+}

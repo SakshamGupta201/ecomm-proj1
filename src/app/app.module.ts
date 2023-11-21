@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { SellerHomeComponent } from './seller-home/seller-home.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     HeaderComponent,
     HomeComponent,
     SellerAuthComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    SellerHomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
