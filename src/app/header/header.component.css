@@ -1,0 +1,11 @@
+*{
+    color: blueviolet;
+}
+
+input, button{
+    border-color: blueviolet;
+}
+
+input::placeholder{
+    color: blueviolet;
+}
